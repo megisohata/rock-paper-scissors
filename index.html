@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>👋 Rock Paper Scissors</title>
 </head>
 <body>
     <script>
@@ -84,5 +85,39 @@
 
         playGame();
     </script>
+
+    <div id="header">
+        <h1>Rock Paper Scissors</h1>
+    </div>
+    <div id="body">
+        <h4>Best of 5 wins the game!</h4>
+        <div id="game-info">
+            <div class="info">
+                <h2>?</h2>
+                <h5>Player: 0</h5>
+            </div>
+            <div class="info">
+                <h2>?</h2>
+                <h5>Computer: 0</h5>
+            </div>
+        </div>
+        <div id="game-moves">
+            <div class="option">
+                <button id="rock">✊</button>
+            </div>
+            <div class="option">
+                <button id="paper">✋</button>
+            </div>
+            <div class="option">
+                <button id="scissors">✌️</button>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <a href="https://github.com/megisohata/rock-paper-scissors" target="_blank">
+            <img id="github" src="./github.png">
+            <p>megisohata</p>
+        </a>
+    </div>
 </body>
 </html>
