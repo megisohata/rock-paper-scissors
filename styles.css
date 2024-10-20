@@ -151,3 +151,51 @@ h5 {
 #playAgain:hover {
     background-color: rgb(from var(--text-color) r g b / 0.2);
 }
+
+@media screen and (max-width: 900px) {
+    #header {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    h2 {
+        font-size: 64px;
+    }
+    
+    h4 {
+        font-size: 24px;
+    }
+    
+    h5 {
+        font-size: 16px;
+    }
+
+    #header {
+        font-size: 16px;
+    }
+
+    #body {
+        gap: 16px;
+        padding: 16px;
+    }
+    
+    #game-info {
+        gap: 16px;
+    }
+    
+    .info {
+        width: 112px;
+        height: 112px;
+    }
+    
+    #game-moves {
+        gap: 16px;
+    }
+    
+    .option > button {
+        width: 112px;
+        height: 112px;
+        font-size: 64px;
+    }
+}
